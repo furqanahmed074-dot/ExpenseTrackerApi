@@ -12,6 +12,7 @@ public class ExpensesController : ControllerBase
         _context = context;
     }
 
+ 
     [HttpGet]
     public IActionResult GetExpenses()
     {
